@@ -1,7 +1,7 @@
 const character = {name: 'Jack Sparrow', age: 10};
-age = 25
+character.age = 25;
 
-let edad = age
+let edad = character.age;
 
 console.log (edad)
 
@@ -20,6 +20,6 @@ console.log (frase)
 const toy1 = {name: 'Buss myYear', price: 19};
 const toy2 = {name: 'Rallo mcKing', price: 29};
 
-let precioFinal = toy1.price + toy2.price 
+let precioFinal = toy1.price + toy2.price; 
 
 console.log (precioFinal)
