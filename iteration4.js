@@ -26,15 +26,20 @@ console.log (rickAndMortyCharacters)
  const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 
 rickAndMortyCharacters.pop()
+rickAndMortyCharacters.splice(1,3);
 
-console.log(rickAndMortyCharacters[0, 4]) 
+console.log(rickAndMortyCharacters) 
 
 //
 
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 
-rickAndMortyCharacters.pop()
+rickAndMortyCharacters.splice(1,1);
 
 console.log(rickAndMortyCharacters)
+
+///
+
+
 
 
